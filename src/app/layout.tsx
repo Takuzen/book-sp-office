@@ -2,7 +2,7 @@ import './globals.css'
 import { Metadata } from 'next'
  
 export const metadata: Metadata = {
-  title: 'notan-office',
+  title: 'book-sp-office',
 }
 
 // These styles apply to every route in the application

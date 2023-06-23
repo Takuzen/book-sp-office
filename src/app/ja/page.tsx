@@ -9,14 +9,14 @@ export default function Home() {
 
       <div className="w-full text-center tracking-widest">
         <h3 className='text-2xl sm:hidden leading-loose'>
-          Wall-filling Books,<br/>
-          Now Anytime Anywhere.
+          壁一面の本を、<br/>
+          いつでも、どこへでも。
         </h3>
         <h3 className='text-2xl hidden sm:inline '>
-        Wall-filling Books, Now Anytime Anywhere.
+          壁一面の本を、いつでも、どこへでも。
         </h3>
         <Link href="/whitepaper">
-          <h3 className='text-xl mt-10 underline underline-offset-8'>whitepaper</h3>
+          <h3 className='text-xl mt-10 underline underline-offset-8'>白書</h3>
         </Link>
       </div>
 
@@ -24,7 +24,7 @@ export default function Home() {
         <Link href="https://notan.vercel.app">
           <div className='text-yellow-500'>
             <h1 className='text-xl sm:text-2xl'>
-            Available with Apple Vision Pro
+            Apple Vision Pro と同時リリース
             </h1>
           </div>
         </Link>
