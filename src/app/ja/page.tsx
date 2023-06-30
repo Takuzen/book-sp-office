@@ -15,19 +15,17 @@ export default function Home() {
         <h3 className='text-2xl hidden sm:inline '>
           壁一面の本を、いつでも、どこへでも。
         </h3>
-        <Link href="/whitepaper">
+        <Link href="/ja/whitepaper">
           <h3 className='text-xl mt-10 underline underline-offset-8'>白書</h3>
         </Link>
       </div>
 
       <div className="w-full text-center flex flex-row gap-7 justify-center sm:gap-0 sm:justify-evenly">
-        <Link href="https://notan.vercel.app">
           <div className='text-yellow-500'>
             <h1 className='text-xl sm:text-2xl'>
             Apple Vision Pro と同時リリース
             </h1>
           </div>
-        </Link>
       </div>
     </main>
   );

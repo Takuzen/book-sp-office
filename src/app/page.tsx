@@ -21,13 +21,11 @@ export default function Home() {
       </div>
 
       <div className="w-full text-center flex flex-row gap-7 justify-center sm:gap-0 sm:justify-evenly">
-        <Link href="https://notan.vercel.app">
           <div className='text-yellow-500'>
             <h1 className='text-xl sm:text-2xl'>
             Available with Apple Vision Pro
             </h1>
           </div>
-        </Link>
       </div>
     </main>
   );
